@@ -9,4 +9,4 @@
   * curl ICO | md5sum
   * [OWASP ICO](https://wiki.owasp.org/index.php/OWASP_favicon_database)
 ## Gobuster
-  * gobuster dir -u URL -w Wordlist(I seclists/discovery/common is a good list) 
+  * gobuster dir -u URL -w Wordlist(seclists/discovery/common is a good list) 
