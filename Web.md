@@ -14,6 +14,8 @@
 ## Gobuster
   * gobuster dir -u URL -w Wordlist(seclists/discovery/common is a good list) 
 
-
 ## Uploads
   * .phtml can bypass upload filters if the admin did not implement a proper upload check(Must be a php application)
+  * [Wordpress uploads](https://www.hacknos.com/wordpress-shell-upload/)
+  * If you have access to a wordpress administrator panel it is possible to upload a reverse shell via upload themes. The url schema is:
+  * http(s)://IP/wp-content/uploads/year/day/filename
