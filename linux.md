@@ -11,3 +11,6 @@ curl -o localNamed http://0.0.0.0:8000/fileName
 
 ## Group files:
 find / -group groupName -type f 2>/dev/null
+
+## Privilege escalation:
+* [Spawn a TTY shell](https://netsec.ws/?p=337)
