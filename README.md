@@ -2,4 +2,4 @@
 TryHackMe notes &amp; things learned
 
 # Resources
-(Pwn College)[https://pwn.college/]
+[Pwn College](https://pwn.college/)
