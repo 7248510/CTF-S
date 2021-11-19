@@ -22,4 +22,4 @@
 
 ## XSS
 * When testing payloads for XSS you can close the tag Hello <p div="name-return">Name Goes here</p>
-* <p div="name-return"> </p>insert XSS payload. Example payload = </p><cript>alert('XSS?');</cript>
+* <fakeTag> </fakeTag>insert XSS payload. Example payload = </fakeTag>script alert('XSS?');script
