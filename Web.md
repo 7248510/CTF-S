@@ -19,3 +19,7 @@
   * [Wordpress uploads](https://www.hacknos.com/wordpress-shell-upload/)
   * If you have access to a wordpress administrator panel it is possible to upload a reverse shell via upload themes. The url schema is:
   * http(s)://IP/wp-content/uploads/year/day/filename
+
+## XSS
+* When testing payloads for XSS you can close the tag Hello <p div="name-return">Name Goes here</p>
+* <p div="name-return"> </p>insert XSS payload. Example payload = "</p><scripttt>alert('XSS?');</scripttt>"
