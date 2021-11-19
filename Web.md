@@ -21,5 +21,5 @@
   * http(s)://IP/wp-content/uploads/year/day/filename
 
 ## XSS
-* When testing payloads for XSS you can close the tag Hello <p div="name-return">Name Goes here</p>
+* When testing payloads for XSS you can close the tag Hello <fakeTag>Name Goes here</fakeTag>
 * <fakeTag> </fakeTag>insert XSS payload. Example payload = </fakeTag>script alert('XSS?');script
