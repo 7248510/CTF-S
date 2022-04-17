@@ -1,7 +1,7 @@
 # Linux Privilege Escalation
 
 # Bins
-* [Linux](https://gtfobins.github.io/)
+* [Linux](https://github.com/GTFOBins/GTFOBins.github.io)
 * [Windows](https://github.com/LOLBAS-Project/LOLBAS)
 
 ## Wildcard injection resources
