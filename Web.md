@@ -23,3 +23,6 @@
 ## XSS
 * When testing payloads for XSS you can close the tag Hello {fakeTag}Name Goes here{/fakeTag}
 * {fakeTag} {/fakeTag}insert XSS payload. Example payload = </fakeTag>script alert('XSS?');script
+
+## Bypass HTTP 300's
+* [Bypassing HTTP 302 with Burp Suite](https://vk9-sec.com/bypass-30x-redirect-with-burpsuite/)
